@@ -3,6 +3,8 @@
     overflow: auto;
     flex: none;
     margin-top: auto;
+    width: 100%;
+    --bs-gutter-x: 0rem;
   }
   
   .container.x {
@@ -12,7 +14,7 @@
   }
   
   .container.y {
-    width: 90vw;
+    width: 100%;
     height: 100vw;
     flex-flow: column nowrap;
   }
@@ -34,7 +36,7 @@
   /* appearance fixes */
   .y.container > div:first-child {
     line-height: 1.3;
-    font-size: 64px;
+    font-size: 3vw;
   }
   /* coloration */
   .container > div:nth-child(even) {
@@ -46,14 +48,14 @@
   }
   p{
     margin: 3vw;
-    font-size: 2vw;
     text-align: start;
     scroll-behavior: smooth;
+    font-size: 2vw;
   }
   ul{
     margin: 5vw;
-    font-size: 2vw;
     text-align: start;
+    font-size: 2vw;
   }
   h1{
     font-size: 7vw;
