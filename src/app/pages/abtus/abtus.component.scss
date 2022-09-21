@@ -31,7 +31,11 @@ div{
     list-style: none;
     display: flex;
     justify-content: center;
+    color: #5ECEDA;
   }
   .nav{
     margin-top: 3vw;
+  }
+  .nav-link, nav-tabs, button{
+    color: aliceblue;
   }

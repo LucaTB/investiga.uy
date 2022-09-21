@@ -8,4 +8,11 @@ body{
     display: flex;
     flex-direction: column;
     color:white;
+    overflow: auto;
+    margin-top: auto;
+    background-color: rgb(1, 91, 131);
+    padding: 2vw;
+}
+button{
+    color: aliceblue;
 }
